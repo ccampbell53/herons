@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+h1 {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 48px;
+text-align: center;
+text-transform: uppercase;
+}
+
+h2 {
+font-variant: small-caps;
+font-weight: 100;
+}
+
+h3 {
+text-align: center;
+text-transform: uppercase;
+font-weight: 100;
+font-size: 18px;
+}
+
+img.header {
+  max-width: 100%;
+  padding-left: 1em;
+}
+
+img.map {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+}
+
+img.desc {
+  display: inline;
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+p {
+  margin-left: 2em;
+}
+
+
+
+
+@media (min-width: 48em) {
+
+  nav ol,
+  nav ul {
+    overflow: hidden;
+    padding-left: .5em;
+  }
+
+  nav li {
+    float: left;
+    margin: 0 1em;
+  }
+
+
+}
