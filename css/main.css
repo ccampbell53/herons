@@ -26,6 +26,8 @@ font-size: 18px;
 img.header {
   max-width: 100%;
   padding-left: 1em;
+  margin-right: -0.5em;
+  float: right;
 }
 
 img.map {
@@ -42,6 +44,7 @@ img.desc {
 
 p {
   margin-left: 2em;
+  margin-right: 5%;
 }
 
 section {
@@ -50,6 +53,10 @@ section {
 
 a {
   color: #fff;
+}
+
+a.jump {
+  float: right;
 }
 
 
