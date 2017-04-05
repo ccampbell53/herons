@@ -48,7 +48,9 @@ section {
   margin-bottom: 4em;
 }
 
-
+a {
+  color: #fff;
+}
 
 
 @media (min-width: 48em) {
